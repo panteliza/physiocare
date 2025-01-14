@@ -39,7 +39,7 @@ const FAQComponent = () => {
     <div className="bg-teal-50 py-12 px-4 sm:px-8 md:px-16 lg:px-24 w-full">
       <div className="text-center mb-12">
         <h1
-          className="text-3xl sm:text-4xl font-bold text-teal-700"
+          className="text-3xl sm:text-4xl font-bold text-teal-400"
           data-aos="fade-down"
         >
           Frequently Asked Questions
