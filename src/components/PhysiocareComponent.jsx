@@ -15,13 +15,13 @@ const PhysiocareComponent = () => {
         <div className="flex flex-col md:flex-row justify-center items-center gap-4 mt-6">
           <a
             href="#about"
-            className="relative flex items-center justify-center w-full md:w-auto py-2 px-6 text-sm md:text-base rounded-full font-medium text-white transition duration-300 focus:outline-none animate-border-shine"
+            className="relative flex items-center justify-center  md:w-auto py-2 px-6 text-sm md:text-base rounded-full font-medium text-white transition duration-300 focus:outline-none animate-border-shine"
           >
             More About Us →
           </a>
           <a
             href="#contact"
-            className="relative flex items-center justify-center w-full md:w-auto py-2 px-6 text-sm md:text-base rounded-full font-medium text-white transition duration-300 focus:outline-none animate-border-shine"
+            className="relative flex items-center justify-center md:w-auto py-2 px-6 text-sm md:text-base rounded-full font-medium text-white transition duration-300 focus:outline-none animate-border-shine"
           >
             Contact Us →
           </a>
