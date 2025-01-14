@@ -6,27 +6,31 @@ export default {
   ],
   theme: {
     extend: {
-      boxShadow: {
-        highlight: '0px 0px 15px rgba(255, 255, 255, 0.8)', // Glow effect for hover
+      keyframes: {
+        borderColorCycle: {
+          '0%': { borderColor: 'pink' },
+          '20%': { borderColor: 'red' },
+          '40%': { borderColor: 'yellow' },
+          '60%': { borderColor: 'green' },
+          '80%': { borderColor: 'orange' },
+          '100%': { borderColor: 'blue' },
+        },
+        fadeIn: {
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        slideUp: {
+          '0%': { opacity: '0', transform: 'translateY(50px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
       },
       animation: {
-        fadeIn: 'fadeIn 1s ease-in-out', // Animation for smooth fade-in
+        'border-color': 'borderColorCycle 2s infinite',
+        'fade-in': 'fadeIn 1s ease-out',
+        'slide-up': 'slideUp 1s ease-out',
       },
-      keyframes: {
-        fadeIn: {
-          '0%': { opacity: 0 },
-          '100%': { opacity: 1 },
-        },
-      },
-      colors: {
-        teal: {
-          900: '#064E3B', // Deep teal for background
-          500: '#14B8A6', // Lighter teal for buttons
-        },
-        gray: {
-          500: '#6B7280', // Medium gray for secondary buttons
-          700: '#374151', // Darker gray for text
-        },
+      fontFamily: {
+        professional: ['Playfair Display', 'Poppins', 'sans-serif'],
       },
     },
   },
