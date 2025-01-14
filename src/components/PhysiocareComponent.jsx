@@ -31,11 +31,11 @@ const PhysiocareComponent = () => {
       {/* Team Section */}
       <div className="flex justify-center items-center py-12 px-4">
         <div className="bg-white text-gray-800 shadow-xl rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-          <div className="w-full h-64 overflow-hidden">
+          <div className="w-full h-64 overflow-hidden ">
             <img
               src={physiotherapist}
               alt="Physiotherapist"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
           </div>
           <div className="p-6 text-center">
