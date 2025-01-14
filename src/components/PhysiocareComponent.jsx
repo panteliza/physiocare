@@ -7,7 +7,7 @@ const PhysiocareComponent = () => {
       {/* Hero Section */}
       <div className="text-center py-12 px-4 md:px-12 lg:px-24 animate-fade-in">
         <h1 className="text-3xl md:text-5xl font-bold mb-4 font-professional">
-          WELCOME TO PHYSIOCARE
+          WELCOME TO <span className="animate-shiny-focus text-silver">PHYSIOCARE</span>
         </h1>
         <p className="text-sm md:text-lg text-gray-200 max-w-xl mx-auto mb-6">
           Our expert team specializes in physiotherapy services tailored to your needs, helping you recover, rejuvenate, and thrive. We provide compassionate care in a supportive environment.
@@ -15,13 +15,13 @@ const PhysiocareComponent = () => {
         <div className="flex flex-col md:flex-row justify-center items-center gap-4 mt-6">
           <a
             href="#about"
-            className="flex items-center justify-center w-full md:w-auto py-2 px-6 text-sm md:text-base rounded-full font-medium text-white border-2 animate-border-color transition duration-300 focus:outline-none"
+            className="relative flex items-center justify-center w-full md:w-auto py-2 px-6 text-sm md:text-base rounded-full font-medium text-white transition duration-300 focus:outline-none animate-border-shine"
           >
             More About Us →
           </a>
           <a
             href="#contact"
-            className="flex items-center justify-center w-full md:w-auto py-2 px-6 text-sm md:text-base rounded-full font-medium text-white border-2 animate-border-color transition duration-300 focus:outline-none"
+            className="relative flex items-center justify-center w-full md:w-auto py-2 px-6 text-sm md:text-base rounded-full font-medium text-white transition duration-300 focus:outline-none animate-border-shine"
           >
             Contact Us →
           </a>

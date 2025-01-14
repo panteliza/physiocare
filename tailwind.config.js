@@ -7,13 +7,15 @@ export default {
   theme: {
     extend: {
       keyframes: {
-        borderColorCycle: {
-          '0%': { borderColor: 'pink' },
-          '20%': { borderColor: 'red' },
-          '40%': { borderColor: 'yellow' },
-          '60%': { borderColor: 'green' },
-          '80%': { borderColor: 'orange' },
-          '100%': { borderColor: 'blue' },
+        shinyFocus: {
+          '0%': { textShadow: '0px 0px 5px rgba(192, 192, 192, 0)' },
+          '50%': { textShadow: '0px 0px 20px rgba(192, 192, 192, 1)' },
+          '100%': { textShadow: '0px 0px 5px rgba(192, 192, 192, 0)' },
+        },
+        borderShine: {
+          '0%': { boxShadow: '0 0 0px rgba(192, 192, 192, 0)' },
+          '50%': { boxShadow: '0 0 10px rgba(192, 192, 192, 1)' },
+          '100%': { boxShadow: '0 0 0px rgba(192, 192, 192, 0)' },
         },
         fadeIn: {
           '0%': { opacity: '0', transform: 'translateY(20px)' },
@@ -25,12 +27,13 @@ export default {
         },
       },
       animation: {
-        'border-color': 'borderColorCycle 2s infinite',
+        'shiny-focus': 'shinyFocus 3s infinite ease-in-out',
+        'border-shine': 'borderShine 3s infinite ease-in-out',
         'fade-in': 'fadeIn 1s ease-out',
         'slide-up': 'slideUp 1s ease-out',
       },
-      fontFamily: {
-        professional: ['Playfair Display', 'Poppins', 'sans-serif'],
+      colors: {
+        silver: '#C0C0C0',
       },
     },
   },
