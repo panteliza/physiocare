@@ -1,5 +1,5 @@
 import React from 'react';
-import physiotherapist from '../assets/a.png';
+import physiotherapist from '../assets/doctor.jpeg';
 
 const PhysiocareComponent = () => {
   return (
@@ -15,13 +15,13 @@ const PhysiocareComponent = () => {
         <div className="flex flex-col md:flex-row justify-center items-center gap-4 mt-6">
           <a
             href="#about"
-            className="relative flex items-center justify-center  md:w-auto py-2 px-6 text-sm md:text-base rounded-full font-medium text-white transition duration-300 focus:outline-none animate-border-shine"
+            className="relative flex items-center justify-center w-full md:w-auto py-3 px-6 text-sm md:text-base rounded-full font-medium text-white border border-teal-400 hover:border-white transition duration-300 focus:outline-none"
           >
             More About Us →
           </a>
           <a
             href="#contact"
-            className="relative flex items-center justify-center md:w-auto py-2 px-6 text-sm md:text-base rounded-full font-medium text-white transition duration-300 focus:outline-none animate-border-shine"
+            className="relative flex items-center justify-center w-full md:w-auto py-3 px-6 text-sm md:text-base rounded-full font-medium text-white border border-teal-400 hover:border-white transition duration-300 focus:outline-none"
           >
             Contact Us →
           </a>
@@ -29,19 +29,21 @@ const PhysiocareComponent = () => {
       </div>
 
       {/* Team Section */}
-      <div className="flex justify-center items-center py-8 px-4 animate-slide-up">
-        <div className="bg-white text-gray-800 shadow-xl rounded-lg p-6 transform hover:scale-105 transition-transform duration-300">
-          <img
-            src={physiotherapist}
-            alt="Physiotherapist"
-            className="w-20 h-20 md:w-32 md:h-32 rounded-full mx-auto mb-4 border-4 border-teal-500"
-          />
-          <h3 className="text-base md:text-xl font-bold text-teal-600 text-center">
-            PHYSIOTHERAPIST
-          </h3>
-          <p className="text-xs md:text-base text-center text-gray-700">
-            Dr. Jane Doe
-          </p>
+      <div className="flex justify-center items-center py-12 px-4">
+        <div className="bg-white text-gray-800 shadow-xl rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+          <div className="w-full h-64 overflow-hidden">
+            <img
+              src={physiotherapist}
+              alt="Physiotherapist"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="p-6 text-center">
+            <h3 className="text-xl font-bold text-teal-600">
+              PHYSIOTHERAPIST
+            </h3>
+            <p className="text-sm text-gray-600">Dr. Jane Doe</p>
+          </div>
         </div>
       </div>
     </div>

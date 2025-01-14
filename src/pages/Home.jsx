@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import WhyChooseUs from '../components/why';
 import PhysiocareComponent from '../components/PhysiocareComponent';
 import FAQComponent from '../components/Faq';
+import DirectContactUs from '../components/DirectContact';
 
 
 
@@ -24,6 +25,7 @@ const Home = () => {
         <PhysiotherapyServices/>
         <WhyChooseUs/>
         <FAQComponent/>
+        <DirectContactUs/>
         <Footer/>
        
       </div>

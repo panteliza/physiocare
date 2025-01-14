@@ -99,15 +99,16 @@ const Footer = () => {
           <ul className="space-y-4 text-sm">
             <li className="flex items-center gap-2">
               <MdEmail className="text-lg" />
-              <span>info@physiocare.com</span>
+              <span>physiocare290@gmail.com</span>
             </li>
             <li className="flex items-center gap-2">
               <FaPhoneAlt className="text-lg" />
-              <span>+91 75077 97087</span>
+              <span>+977 9841675370</span>
+              <span>+977 9848758698</span>
             </li>
             <li className="flex items-center gap-2">
               <FaMapMarkerAlt className="text-lg" />
-              <span>Bharatpur, Chitwan, Nepal</span>
+              <span>Kupondol,Lalitpur, Nepal</span>
             </li>
           </ul>
           <a
@@ -121,7 +122,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div className="border-t border-teal-600 mt-8 pt-4 text-center text-sm" data-aos="fade-up">
-        © 2025 Physiocare. All Rights Reserved. Designed by <span className="font-bold">Your Company</span>.
+        © 2025 Physiocare. All Rights Reserved. Designed by <span className="font-bold">Clouds Nepal Web</span>.
       </div>
     </footer>
   );

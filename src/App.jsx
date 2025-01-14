@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-
-
+import whatsappImage from './assets/whatsapp.png'; // Import WhatsApp image
+import './App.css'; // Add this for styling
 import Home from './pages/Home';
 
 
@@ -14,7 +14,16 @@ const App = () => {
          
           <Route path="/" element={<Home />} />
           </Routes>
-          </div>
+          {/* WhatsApp button as an image */}
+        <a
+          href="https://wa.me/9764399112"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="whatsapp-button"
+        >
+          <img src={whatsappImage} alt="WhatsApp" />
+        </a>
+      </div>
     </BrowserRouter>
   );
 };
