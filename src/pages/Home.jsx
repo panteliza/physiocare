@@ -1,5 +1,9 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import PhysiotherapyServices from '../components/PhysiotherapyServices';
+import Footer from '../components/Footer';
+import WhyChooseUs from '../components/why';
+import PhysiocareComponent from '../components/PhysiocareComponent';
 
 
 
@@ -15,6 +19,10 @@ const Home = () => {
       
       {/* Main content section */}
       <div className="w-full flex-shrink-0 overflow-hidden">
+        <PhysiocareComponent/>
+        <PhysiotherapyServices/>
+        <WhyChooseUs/>
+        <Footer/>
        
       </div>
     </div>
