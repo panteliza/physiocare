@@ -62,9 +62,7 @@ const PhysiocareComponent = () => {
           0% {
             box-shadow: 0 0 5px rgba(0, 255, 0, 0.6), 0 0 15px rgba(0, 255, 0, 0.4);
           }
-          50% {
-            box-shadow: 0 0 20px rgba(0, 255, 0, 0.8), 0 0 30px rgba(0, 255, 0, 0.6);
-          }
+        
           100% {
             box-shadow: 0 0 5px rgba(0, 255, 0, 0.6), 0 0 15px rgba(0, 255, 0, 0.4);
           }
@@ -107,7 +105,7 @@ const PhysiocareComponent = () => {
               <img
                 src={physiotherapist}
                 alt="Physiotherapist"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
             <div className="p-6 text-center">
