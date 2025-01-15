@@ -106,11 +106,7 @@ const DirectContactUs = () => {
       </section>
 
       {/* Footer Section */}
-      <footer className="bg-teal-900 text-white text-center py-4">
-        <p className="text-sm">
-          © {new Date().getFullYear()} Physiocare. All Rights Reserved.
-        </p>
-      </footer>
+     
     </div>
   );
 };

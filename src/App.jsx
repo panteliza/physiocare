@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import whatsappImage from './assets/whatsapp.png'; // Import WhatsApp image
 import './App.css'; // Add this for styling
 import Home from './pages/Home';
+import Services from './pages/Services';
 
 
 const App = () => {
@@ -11,7 +12,7 @@ const App = () => {
       <div>
         {/* Routes for different pages */}
         <Routes>
-         
+        <Route path="/our-services" element={<Services />} />
           <Route path="/" element={<Home />} />
           </Routes>
           {/* WhatsApp button as an image */}
