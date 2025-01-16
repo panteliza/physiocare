@@ -7,6 +7,7 @@ import PhysiocareComponent from '../components/PhysiocareComponent';
 import FAQComponent from '../components/Faq';
 import DirectContactUs from '../components/DirectContact';
 import Reviews from '../components/Reviews';
+import Features from '../components/Features';
 
 
 
@@ -26,6 +27,7 @@ const Home = () => {
         <PhysiotherapyServices/>
         <WhyChooseUs/>
         <Reviews/>
+        <Features/>
         <FAQComponent/>
         <DirectContactUs/>
         <Footer/>

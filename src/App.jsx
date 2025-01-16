@@ -4,6 +4,7 @@ import whatsappImage from './assets/whatsapp.png'; // Import WhatsApp image
 import './App.css'; // Add this for styling
 import Home from './pages/Home';
 import Services from './pages/Services';
+import Gallery from './pages/Gallery';
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
         {/* Routes for different pages */}
         <Routes>
         <Route path="/our-services" element={<Services />} />
+        <Route path="/gallery" element={<Gallery />} />
           <Route path="/" element={<Home />} />
           </Routes>
           {/* WhatsApp button as an image */}
