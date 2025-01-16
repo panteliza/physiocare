@@ -51,12 +51,12 @@ const Navbar = () => {
         {/* Book an Appointment Button */}
         <div className="hidden lg:block">
           <a
-            href="https://wa.me/9764399112"
+            href="https://wa.me/9708476971"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-500 px-4 py-2 rounded-lg hover:bg-green-400 transition duration-200"
           >
-            Book via WhatsApp
+            Book An Appointment
           </a>
         </div>
 
@@ -124,7 +124,7 @@ const Navbar = () => {
             </Link>
             <div className="mt-auto mb-4 px-6">
               <a
-                href="https://wa.me/9764399112"
+                href="https://wa.me/9708476971"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-500 w-full text-center py-2 rounded-lg block hover:bg-green-400 transition duration-200"

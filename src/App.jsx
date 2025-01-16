@@ -5,6 +5,7 @@ import './App.css'; // Add this for styling
 import Home from './pages/Home';
 import Services from './pages/Services';
 import Gallery from './pages/Gallery';
+import AboutPhysiocare from './pages/About';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <Routes>
         <Route path="/our-services" element={<Services />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/about-us" element={<AboutPhysiocare />} />
           <Route path="/" element={<Home />} />
           </Routes>
           {/* WhatsApp button as an image */}
