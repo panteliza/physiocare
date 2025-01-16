@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaFacebookF, FaInstagram, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import logo from '../assets/logo2.png';
 
 const Footer = () => {
   return (
@@ -11,14 +12,16 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About Section */}
           <div data-aos="fade-right">
-            <h2 className="text-xl font-bold mb-4">Physiocare</h2>
+             <div className="flex items-center gap-2">
+                      <img src={logo} alt="Logo" className="h-[50px] w-[150px]" />
+                    </div>
             <p className="text-sm">
               Physiocare offers high-quality physiotherapy services at your convenience.
               Contact us today to get the care you deserve!
             </p>
             <div className="flex gap-4 mt-4">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/18YNv6jHS9/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-white rounded-full text-teal-700 hover:bg-teal-600 hover:text-white transition-all duration-300"
@@ -41,27 +44,27 @@ const Footer = () => {
             <h2 className="text-xl font-bold mb-4">Our Services</h2>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link to="/services/neurological" className="hover:text-teal-300 transition-all">
+                <Link to="/neurological-physiotherapy" className="hover:text-teal-300 transition-all">
                   Neurological Physiotherapy
                 </Link>
               </li>
               <li>
-                <Link to="/services/orthopaedic" className="hover:text-teal-300 transition-all">
+                <Link to="/orthopaedic-physiotherapy" className="hover:text-teal-300 transition-all">
                   Orthopaedic Physiotherapy
                 </Link>
               </li>
               <li>
-                <Link to="/services/sports-injury" className="hover:text-teal-300 transition-all">
+                <Link to="/sports-injury-physiotherapy" className="hover:text-teal-300 transition-all">
                   Sports Injury Physiotherapy
                 </Link>
               </li>
               <li>
-                <Link to="/services/post-surgery" className="hover:text-teal-300 transition-all">
+                <Link to="/post-surgery-physiotherapy" className="hover:text-teal-300 transition-all">
                   Post-Surgery Physiotherapy
                 </Link>
               </li>
               <li>
-                <Link to="/services/pediatric" className="hover:text-teal-300 transition-all">
+                <Link to="/pediatric-physiotherapy" className="hover:text-teal-300 transition-all">
                   Pediatric Physiotherapy
                 </Link>
               </li>
@@ -88,8 +91,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/book-appointment" className="hover:text-teal-300 transition-all">
-                  Book An Appointment
+                <Link to="/our-services" className="hover:text-teal-300 transition-all">
+                  Our Services
                 </Link>
               </li>
             </ul>
@@ -101,12 +104,18 @@ const Footer = () => {
             <ul className="space-y-4 text-sm">
               <li className="flex items-center gap-2">
                 <MdEmail className="text-lg" />
-                <span>physiocare290@gmail.com</span>
+                <a href="mailto:physiocare290@gmail.com" className="hover:underline">
+                  physiocare290@gmail.com
+                </a>
               </li>
               <li className="flex items-center gap-2">
                 <FaPhoneAlt className="text-lg" />
-                <span>+977 9841675370</span>
-                <span>+977 9848758698</span>
+                <a href="tel:+9779841675370" className="hover:underline">
+                  +977 9841675370
+                </a>
+                <a href="tel:+9779848758698" className="hover:underline">
+                  +977 9848758698
+                </a>
               </li>
               <li className="flex items-center gap-2">
                 <FaMapMarkerAlt className="text-lg" />
@@ -120,6 +129,8 @@ const Footer = () => {
               Book An Appointment
             </a>
           </div>
+
+
         </div>
       </div>
 

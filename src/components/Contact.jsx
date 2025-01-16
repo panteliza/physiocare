@@ -49,7 +49,7 @@ const Contact = () => {
             animationPlayState: 'paused',
           }}
         >
-          <FaMapMarkerAlt className="text-blue-500 text-4xl mb-4 shiver-icon transition duration-300 hover:text-blue-800" />
+          <FaMapMarkerAlt className="text-teal-500 text-4xl mb-4 shiver-icon transition duration-300 hover:text-teal-800" />
           <h3 className="font-bold sm:text-[20px] text-[18px] text-gray-800 mb-2">
             Our Location
           </h3>
@@ -65,7 +65,7 @@ const Contact = () => {
             animationPlayState: 'paused',
           }}
         >
-          <FaPhoneAlt className="text-blue-500 text-4xl mb-4 shiver-icon transition duration-300 hover:text-blue-800" />
+          <FaPhoneAlt className="text-teal-500 text-4xl mb-4 shiver-icon transition duration-300 hover:text-teal-800" />
           <h3 className="font-bold sm:text-[20px] text-[18px] text-gray-800 mb-2">
             Our Contact
           </h3>
@@ -86,7 +86,7 @@ const Contact = () => {
             animationPlayState: 'paused',
           }}
         >
-          <FaEnvelope className="text-blue-500 text-4xl mb-4 shiver-icon transition duration-300 hover:text-blue-800" />
+          <FaEnvelope className="text-teal-500 text-4xl mb-4 shiver-icon transition duration-300 hover:text-teal-800" />
           <h3 className="font-bold sm:text-[20px] text-[18px] text-gray-800 mb-2">
             Mail Us
           </h3>

@@ -40,9 +40,7 @@ const Navbar = () => {
           <Link to="/gallery" className="hover:text-teal-300 transition duration-200">
             Gallery
           </Link>
-          <Link to="/our-teams" className="hover:text-teal-300 transition duration-200">
-            Our Teams
-          </Link>
+          
           <Link to="/contact-us" className="hover:text-teal-300 transition duration-200">
             Contact Us
           </Link>
@@ -108,13 +106,7 @@ const Navbar = () => {
             >
               Gallery
             </Link>
-            <Link
-              to="/our-teams"
-              className="text-white font-medium py-3 px-6 border-b border-teal-600 hover:bg-teal-600"
-              onClick={toggleSidebar}
-            >
-              Our Teams
-            </Link>
+            
             <Link
               to="/contact-us"
               className="text-white font-medium py-3 px-6 border-b border-teal-600 hover:bg-teal-600"

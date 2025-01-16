@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import physiotherapist from '../assets/doctor.jpeg';
 
 const PhysiocareComponent = () => {
@@ -62,12 +63,9 @@ const PhysiocareComponent = () => {
           0% {
             box-shadow: 0 0 5px rgba(0, 255, 0, 0.6), 0 0 15px rgba(0, 255, 0, 0.4);
           }
-        
           100% {
             box-shadow: 0 0 5px rgba(0, 255, 0, 0.6), 0 0 15px rgba(0, 255, 0, 0.4);
           }
-        }
-      
         }
       `}</style>
 
@@ -83,18 +81,18 @@ const PhysiocareComponent = () => {
 
           {/* Highlighted Buttons */}
           <div className="flex flex-col md:flex-row justify-center items-center gap-4 mt-6">
-            <a
-              href="#about"
+            <Link
+              to="/about-us"
               className="relative flex items-center justify-center md:w-auto py-3 px-6 text-sm md:text-base rounded-full font-medium text-white border border-teal-400 highlight-border transition duration-300 focus:outline-none animate-on-scroll slide-from-bottom"
             >
               More About Us →
-            </a>
-            <a
-              href="#contact"
+            </Link>
+            <Link
+              to="/contact-us"
               className="relative flex items-center justify-center md:w-auto py-3 px-6 text-sm md:text-base rounded-full font-medium text-white border border-teal-400 highlight-border transition duration-300 focus:outline-none animate-on-scroll slide-from-bottom"
             >
               Contact Us →
-            </a>
+            </Link>
           </div>
         </div>
 
