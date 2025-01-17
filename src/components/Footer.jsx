@@ -6,7 +6,7 @@ import logo from '../assets/logo2.png';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#007791] text-white">
+    <footer className="bg-[#034694] text-white">
       {/* Main Footer Content */}
       <div className="py-10 px-6 sm:px-12">
         <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -135,7 +135,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <div className="bg-[#1877F2] text-center py-4">
+      <div className="bg-[#000080] text-center py-4">
         <p className="text-sm">
           © {new Date().getFullYear()} Physiocare. All Rights Reserved. Designed by{" "}
           <span className="font-bold">Clouds Nepal Web</span>.
