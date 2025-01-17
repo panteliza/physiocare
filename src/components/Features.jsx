@@ -34,7 +34,7 @@ const Features = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         {/* Left Column - Features List */}
         <div data-aos="fade-right">
-          <h2 className="text-2xl sm:text-4xl font-bold text-[#007791] mb-6">
+          <h2 className="text-2xl sm:text-4xl font-bold text-[#005A9C] mb-6">
             Features of Physiocare
           </h2>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-gray-700 text-sm sm:text-base">

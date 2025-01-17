@@ -73,7 +73,7 @@ const PhysiocareComponent = () => {
         {/* Hero Section */}
         <div className="text-center py-12 px-4 md:px-12 lg:px-24">
           <h1 className="text-3xl md:text-5xl font-bold mb-4 font-professional animate-on-scroll slide-from-top">
-            WELCOME TO <span className="glow-text text-silver">PHYSIOCARE</span>
+            WELCOME TO <span className="glow-text ">PHYSIOCARE</span>
           </h1>
           <p className="text-sm md:text-lg text-gray-200 max-w-xl mx-auto mb-6 animate-on-scroll slide-from-bottom">
             Our expert team specializes in physiotherapy services tailored to your needs, helping you recover, rejuvenate, and thrive. We provide compassionate care in a supportive environment.

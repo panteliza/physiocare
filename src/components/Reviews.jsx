@@ -28,7 +28,7 @@ const Reviews = () => {
   return (
     <div className="bg-gray-50 py-12 px-6 sm:px-12">
       <div className="text-center mb-8">
-        <h2 className="text-2xl sm:text-4xl font-bold text-[#007791]">
+        <h2 className="text-2xl sm:text-4xl font-bold text-[#005A9C]">
           Thoughts From Our Patients
         </h2>
       </div>

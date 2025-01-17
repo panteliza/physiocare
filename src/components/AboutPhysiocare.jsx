@@ -62,7 +62,7 @@ const AboutPhysiocare = () => {
     <div className="bg-gray-50 py-12 px-6 sm:px-12">
       <div className="max-w-7xl mx-auto">
         <h2
-          className="text-2xl sm:text-4xl font-bold text-[#007791] mb-6 text-center"
+          className="text-2xl sm:text-4xl font-bold text-[#005A9C] mb-6 text-center"
           data-aos="fade-down"
         >
           About Physiocare
@@ -75,7 +75,7 @@ const AboutPhysiocare = () => {
               data-aos="fade-up"
               data-aos-delay={`${index * 100}`}
             >
-              <h3 className="text-xl font-bold text-[#007791] mb-4">
+              <h3 className="text-xl font-bold text-[#005A9C] mb-4">
                 {item.question}
               </h3>
               <p className="text-gray-600 text-sm sm:text-base whitespace-pre-line">
