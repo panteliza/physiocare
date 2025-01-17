@@ -20,7 +20,7 @@ const Navbar = () => {
         }
       `}</style>
 
-      <nav className="w-full bg-[#0093AF] text-white py-4 px-8 flex justify-between items-center shadow-lg fixed top-0 left-0 z-50">
+      <nav className="w-full bg-blue-400 text-white py-4 px-8 flex justify-between items-center shadow-lg fixed top-0 left-0 z-50">
         {/* Logo */}
         <div className="flex items-center gap-2">
           <img src={logo} alt="Logo" className="h-[50px] w-[150px]" />
@@ -66,7 +66,7 @@ const Navbar = () => {
 
         {/* Mobile Sidebar */}
         {showSidebar && (
-          <div className="fixed top-0 left-0 w-[300px] h-full bg-[#0093AF] shadow-lg z-50 flex flex-col">
+          <div className="fixed top-0 left-0 w-[300px] h-full bg-blue-400 shadow-lg z-50 flex flex-col">
             <MdOutlineClose
               className="absolute top-4 right-4 text-3xl text-white cursor-pointer"
               onClick={toggleSidebar}
