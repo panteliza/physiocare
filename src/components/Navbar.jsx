@@ -80,28 +80,28 @@ const Navbar = () => {
             </div>
             <Link
               to="/"
-              className="text-white font-medium py-3 px-6 border-b border-teal-600 hover:bg-teal-600"
+              className="text-white font-medium py-3 px-6 border-b border-blue-600 hover:bg-teal-600"
               onClick={toggleSidebar}
             >
               Home
             </Link>
             <Link
               to="/our-services"
-              className="text-white font-medium py-3 px-6 border-b border-teal-600 hover:bg-teal-600"
+              className="text-white font-medium py-3 px-6 border-b border-blue-600 hover:bg-teal-600"
               onClick={toggleSidebar}
             >
               Our Services
             </Link>
             <Link
               to="/about-us"
-              className="text-white font-medium py-3 px-6 border-b border-teal-600 hover:bg-teal-600"
+              className="text-white font-medium py-3 px-6 border-b border-blue-600 hover:bg-teal-600"
               onClick={toggleSidebar}
             >
               About Us
             </Link>
             <Link
               to="/gallery"
-              className="text-white font-medium py-3 px-6 border-b border-teal-600 hover:bg-teal-600"
+              className="text-white font-medium py-3 px-6 border-b border-blue-600 hover:bg-teal-600"
               onClick={toggleSidebar}
             >
               Gallery
@@ -109,7 +109,7 @@ const Navbar = () => {
             
             <Link
               to="/contact-us"
-              className="text-white font-medium py-3 px-6 border-b border-teal-600 hover:bg-teal-600"
+              className="text-white font-medium py-3 px-6 border-b border-blue-600 hover:bg-teal-600"
               onClick={toggleSidebar}
             >
               Contact Us
