@@ -73,7 +73,7 @@ const WhyChooseUs = () => {
         {features.map(({ id, title, description, image }) => (
           <div
             key={id}
-            className="bg-teal-50 border border-teal-200 rounded-xl shadow-lg p-6 text-center hover:shadow-xl transition-shadow duration-300"
+            className="bg-[#ADD8E6] border border-blue-300 rounded-xl shadow-lg p-6 text-center hover:shadow-xl transition-shadow duration-300"
             data-aos="zoom-in"
             data-aos-delay={`${id * 100}`}
           >

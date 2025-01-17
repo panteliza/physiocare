@@ -39,7 +39,7 @@ const PhysiotherapyServices = () => {
   }, []);
 
   return (
-    <div className="w-full bg-teal-50 py-12 px-4 sm:px-6">
+    <div className="w-full bg-[#ADD8E6] py-12 px-4 sm:px-6">
       <div className="text-center mb-10">
         <h1
           className="text-xl sm:text-3xl font-bold text-[#005A9C]"
