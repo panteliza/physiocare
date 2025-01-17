@@ -42,7 +42,7 @@ const PhysiotherapyServices = () => {
     <div className="w-full bg-blue-50 py-12 px-4 sm:px-6">
       <div className="text-center mb-10">
         <h1
-          className="text-xl sm:text-3xl font-bold text-[#005A9C]"
+          className="text-2xl sm:text-3xl font-bold text-[#005A9C]"
           data-aos="fade-down"
         >
           Our Services
