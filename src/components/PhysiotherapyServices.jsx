@@ -42,7 +42,7 @@ const PhysiotherapyServices = () => {
     <div className="w-full bg-teal-50 py-12 px-4 sm:px-6">
       <div className="text-center mb-10">
         <h1
-          className="text-xl sm:text-3xl font-bold text-teal-700"
+          className="text-xl sm:text-3xl font-bold text-[#007791]"
           data-aos="fade-down"
         >
           Our Services
@@ -71,12 +71,12 @@ const PhysiotherapyServices = () => {
               />
             </div>
             <div className="p-2 sm:p-3 text-center">
-              <h2 className="text-xs sm:text-sm font-bold text-teal-700 hover:text-teal-900 transition-colors duration-300">
+              <h2 className="text-xs sm:text-sm font-bold text-[#007791] hover:text-teal-900 transition-colors duration-300">
                 {name}
               </h2>
               <Link
                 to={link}
-                className="inline-block mt-2 sm:mt-3 bg-teal-600 text-white text-xs sm:text-sm px-2 sm:px-3 py-1 sm:py-2 rounded shadow hover:bg-teal-700 transition-all duration-300"
+                className="inline-block mt-2 sm:mt-3 bg-[#007791] text-white text-xs sm:text-sm px-2 sm:px-3 py-1 sm:py-2 rounded shadow hover:bg-[#1034A6] transition-all duration-300"
               >
                 Know More
               </Link>

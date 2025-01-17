@@ -15,7 +15,7 @@ const AboutPhysiocare = () => {
       <Navbar />
       <div className="min-h-screen flex flex-col items-center py-10 pt-[100px] animate-fadeIn">
         {/* Adjusted padding to prevent content overlap */}
-        <h1 className="text-4xl font-bold text-teal-700 mb-6 animate-slideDown">
+        <h1 className="text-4xl font-bold text-[#007791] mb-6 animate-slideDown">
           About Physiocare
         </h1>
         <div className="max-w-7xl w-full flex flex-col md:flex-row bg-gray-800 shadow-lg rounded-lg overflow-hidden animate-zoomIn">

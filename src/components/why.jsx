@@ -63,7 +63,7 @@ const WhyChooseUs = () => {
     <div className="w-full bg-white py-16 px-4 sm:px-8">
       <div className="text-center mb-12">
         <h1
-          className="text-3xl sm:text-4xl font-bold text-teal-700"
+          className="text-3xl sm:text-4xl font-bold text-[#007791]"
           data-aos="fade-down"
         >
           WHY CHOOSE US?
@@ -84,7 +84,7 @@ const WhyChooseUs = () => {
                 className="h-16 w-16 object-contain"
               />
             </div>
-            <h2 className="text-lg font-bold text-teal-700 mb-2">{title}</h2>
+            <h2 className="text-lg font-bold text-[#007791] mb-2">{title}</h2>
             <p className="text-gray-600 text-sm">{description}</p>
           </div>
         ))}

@@ -69,7 +69,7 @@ const PhysiocareComponent = () => {
         }
       `}</style>
 
-      <div className="bg-teal-900 text-white">
+      <div className="bg-[#005A9C] text-white">
         {/* Hero Section */}
         <div className="text-center py-12 px-4 md:px-12 lg:px-24">
           <h1 className="text-3xl md:text-5xl font-bold mb-4 font-professional animate-on-scroll slide-from-top">

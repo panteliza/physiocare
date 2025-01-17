@@ -34,7 +34,7 @@ const App = () => {
         <Route path="/respiratory-physiotherapy" element={<RespiratoryPhysiotherapy />} />
         <Route path="/physiotherapy-post-chemotherapy" element={<PostChemotherapyPhysiotherapy />} />
         <Route path="/cardiac-rehab-physiotherapy" element={<CardiacRehabPhysiotherapy />} />
-        <Route path="/sports-injury-physiotherapy" element={<SportsInjuryPhysiotherapy />} />
+        <Route path="/sports-injury-physiotherapy" element={<SportsInjuryPhysiotherapy />}/>
         <Route path="/post-fracture-physiotherapy" element={<PostFracturePhysiotherapy />} />
         <Route path="/gynecological-physiotherapy" element={<GynecologicalPhysiotherapy />} />
         <Route path="/pediatric-physiotherapy" element={<PediatricPhysiotherapy />} />

@@ -39,7 +39,7 @@ const FAQComponent = () => {
     <div className="bg-teal-50 py-12 px-4 sm:px-8 md:px-16 lg:px-24 w-full">
       <div className="text-center mb-12">
         <h1
-          className="text-3xl sm:text-4xl font-bold text-teal-600"
+          className="text-3xl sm:text-4xl font-bold text-[#007791]"
           data-aos="fade-down"
         >
           Frequently Asked Questions
@@ -49,12 +49,12 @@ const FAQComponent = () => {
         {faqs.map((faq, index) => (
           <div
             key={index}
-            className="bg-teal-700 text-white rounded-lg overflow-hidden shadow-lg transition-all duration-300"
+            className="bg-[#2E5090] text-white rounded-lg overflow-hidden shadow-lg transition-all duration-300"
             data-aos="fade-up"
             data-aos-delay={`${index * 100}`}
           >
             <div
-              className="flex justify-between items-center p-4 cursor-pointer hover:bg-teal-800 transition-colors duration-300"
+              className="flex justify-between items-center p-4 cursor-pointer hover:bg-[#3E8EDE] transition-colors duration-300"
               onClick={() => toggleFAQ(index)}
             >
               <h2 className="text-lg font-medium">{faq.question}</h2>
@@ -68,7 +68,7 @@ const FAQComponent = () => {
             </div>
             {activeIndex === index && (
               <div
-                className="p-4 text-gray-100 bg-teal-600 transition-all duration-300"
+                className="p-4 text-gray-100 bg-[#2774AE] transition-all duration-300"
                 data-aos="fade-in"
               >
                 {faq.answer}
