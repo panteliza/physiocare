@@ -35,7 +35,7 @@ const Contact = () => {
 
   return (
     <div className="flex flex-col items-center justify-center py-10 bg-gray-100">
-      <h2 className="text-3xl font-bold text-center text-[#007791] mb-4">
+      <h2 className="text-3xl font-bold text-center text-[#034694] mb-4">
         Contact Us
       </h2>
 
@@ -49,7 +49,7 @@ const Contact = () => {
             animationPlayState: 'paused',
           }}
         >
-          <FaMapMarkerAlt className="text-[#007791] text-4xl mb-4 shiver-icon transition duration-300 hover:text-teal-800" />
+          <FaMapMarkerAlt className="text-[#034694] text-4xl mb-4 shiver-icon transition duration-300 hover:text-blue-800" />
           <h3 className="font-bold sm:text-[20px] text-[18px] text-gray-800 mb-2">
             Our Location
           </h3>
@@ -65,7 +65,7 @@ const Contact = () => {
             animationPlayState: 'paused',
           }}
         >
-          <FaPhoneAlt className="text-[#007791] text-4xl mb-4 shiver-icon transition duration-300 hover:text-teal-800" />
+          <FaPhoneAlt className="text-[#034694] text-4xl mb-4 shiver-icon transition duration-300 hover:text-blue-800" />
           <h3 className="font-bold sm:text-[20px] text-[18px] text-gray-800 mb-2">
             Our Contact
           </h3>
@@ -86,7 +86,7 @@ const Contact = () => {
             animationPlayState: 'paused',
           }}
         >
-          <FaEnvelope className="text-[#007791] text-4xl mb-4 shiver-icon transition duration-300 hover:text-teal-800" />
+          <FaEnvelope className="text-[#034694] text-4xl mb-4 shiver-icon transition duration-300 hover:text-blue-800" />
           <h3 className="font-bold sm:text-[20px] text-[18px] text-gray-800 mb-2">
             Mail Us
           </h3>
