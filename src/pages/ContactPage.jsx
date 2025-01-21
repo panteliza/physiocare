@@ -31,9 +31,7 @@ const ContactPage = () => {
         </div>
 
         {/* Reviews Section */}
-        <div className="max-w-4xl w-full bg-white shadow-lg rounded-lg overflow-hidden mb-10 p-6">
-          <Reviews />
-        </div>
+       
       </div>
 
       {/* Footer */}
