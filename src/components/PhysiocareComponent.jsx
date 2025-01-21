@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import physiotherapist from '../assets/doctor.jpeg';
+import physioVideo from '../assets/physio.mp4';
 
 const PhysiocareComponent = () => {
   useEffect(() => {
@@ -100,17 +100,19 @@ const PhysiocareComponent = () => {
         <div className="flex justify-center items-center py-12 px-4">
           <div className="bg-white text-gray-800 shadow-xl rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 border-t-4 border-green-500 animate-on-scroll slide-from-bottom">
             <div className="w-full h-64 overflow-hidden">
-              <img
-                src={physiotherapist}
-                alt="Physiotherapist"
-                className="w-full h-full object-contain"
+              <video
+                src={physioVideo}
+                alt="Physiotherapy Video"
+                className="w-full h-full object-cover"
+                autoPlay
+                loop
+                muted
               />
             </div>
             <div className="p-6 text-center">
               <h3 className="text-xl font-bold text-teal-600">
-                PHYSIOTHERAPIST
+                PHYSIOTHERAPY IN ACTION
               </h3>
-              <p className="text-sm text-gray-600">Dr. Jane Doe</p>
             </div>
           </div>
         </div>

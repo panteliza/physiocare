@@ -9,24 +9,26 @@ const Features = () => {
   }, []);
 
   const features = [
-    "100% Patient Satisfaction",
-    "Patient-Centered Care Models",
-    "Integrated Digital Health Records",
-    "Access to Experienced Doctors",
-    "Respect for Patient Preferences",
-    "Speech Therapy Available",
-    "Advanced Diagnostic Technology",
-    "Psychology Counseling",
-    "Eco-Friendly Practices",
-    "24/7 Patient Care",
-    "Customized Physiotherapy Plans",
-    "Post-Surgery Rehabilitation",
-    "Sports Injury Recovery",
-    "Neurological Physiotherapy",
-    "Orthopedic Physiotherapy",
-    "Cardiac Rehabilitation",
-    "Pediatric Physiotherapy",
+    "Comprehensive Physiotherapy Assessment",
+    "Tailored Rehabilitation Programs",
+    "State-of-the-Art Equipment",
+    "Experienced and Certified Physiotherapists",
+    "Post-Surgery Recovery Support",
+    "Sports Injury Rehabilitation",
+    "Chronic Pain Management",
+    "Neurological Rehabilitation",
     "Geriatric Physiotherapy",
+    "Pediatric Physiotherapy",
+    "Women's Health Physiotherapy",
+    "Cardiac Rehabilitation Services",
+    "24/7 Emergency Support",
+    "Holistic Wellness Approach",
+    "Ergonomic Advice and Workplace Injury Prevention",
+    "Home Physiotherapy Services",
+    "Community Health and Awareness Programs",
+    "Advanced Electrotherapy Techniques",
+    "Manual Therapy and Mobilization",
+    "Education on Self-Management and Prevention"
   ];
 
   return (

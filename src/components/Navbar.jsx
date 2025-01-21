@@ -20,7 +20,7 @@ const Navbar = () => {
         }
       `}</style>
 
-      <nav className="w-full bg-[#034694] text-white py-4 px-8 flex justify-between items-center shadow-lg fixed top-0 left-0 z-50">
+      <nav className="w-full bg-white font-bold text-[#034694] py-4 px-8 flex justify-between items-center shadow-lg fixed top-0 left-0 z-50">
         {/* Logo */}
         <div className="flex items-center gap-2">
           <img src={logo} alt="Logo" className="h-[50px] w-[150px]" />

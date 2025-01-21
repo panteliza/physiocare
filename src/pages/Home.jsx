@@ -8,6 +8,7 @@ import FAQComponent from '../components/Faq';
 import DirectContactUs from '../components/DirectContact';
 import Reviews from '../components/Reviews';
 import Features from '../components/Features';
+import DoctorsSlider from '../components/DoctorsSlider';
 
 
 
@@ -24,6 +25,7 @@ const Home = () => {
       {/* Main content section */}
       <div className="w-full flex-shrink-0 overflow-hidden">
         <PhysiocareComponent/>
+        <DoctorsSlider/>
         <PhysiotherapyServices/>
         <WhyChooseUs/>
         <Reviews/>

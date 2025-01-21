@@ -14,6 +14,10 @@ import jjjImage from '../assets/jjj.jpeg';
 import kkkImage from '../assets/kkk.jpeg';
 import lllImage from '../assets/lll.jpeg';
 import mmmImage from '../assets/mmm.jpeg';
+import image1 from '../assets/12.jpeg';
+import image2 from '../assets/23.jpeg';
+import image3 from '../assets/34.jpeg';
+import image4 from '../assets/45.jpeg';
 
 const Gallery = () => {
   useEffect(() => {
@@ -21,8 +25,8 @@ const Gallery = () => {
   }, []);
 
   const images = [
-    aaaImage, bbbImage, cccImage, dddImage, eeeImage, fffImage,
-    gggImage, hhhImage, iiiImage, jjjImage, kkkImage, lllImage, mmmImage,
+    image1, image2,bbbImage, cccImage, dddImage, eeeImage, fffImage,
+    gggImage,   kkkImage, lllImage, mmmImage,image3,image4
   ];
 
   return (
