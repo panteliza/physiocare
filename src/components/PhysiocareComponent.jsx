@@ -107,6 +107,7 @@ const PhysiocareComponent = () => {
                 autoPlay
                 loop
                 muted
+                playsInline
               />
             </div>
             <div className="p-6 text-center">
