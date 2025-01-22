@@ -36,6 +36,29 @@ const FitnessLifestylePhysiotherapy = () => {
 
         {/* Content Section */}
         <div className="max-w-4xl w-full bg-white shadow-lg rounded-lg overflow-hidden p-8 space-y-6">
+             {/* Additional Images Section */}
+             <div className="grid grid-cols-2 gap-4 mt-10">
+            <img
+              src={ao}
+              alt="Additional Image 1"
+              className="w-full h-auto object-cover rounded-lg shadow-lg animate-fadeIn delay-1900"
+            />
+            <img
+              src={bo}
+              alt="Additional Image 2"
+              className="w-full h-auto object-cover rounded-lg shadow-lg animate-fadeIn delay-2000"
+            />
+            <img
+              src={co}
+              alt="Additional Image 3"
+              className="w-full h-auto object-cover rounded-lg shadow-lg animate-fadeIn delay-2100"
+            />
+            <img
+              src={doImage}
+              alt="Additional Image 4"
+              className="w-full h-auto object-cover rounded-lg shadow-lg animate-fadeIn delay-2200"
+            />
+          </div>
           <h2 className="text-3xl font-semibold text-gray-800 animate-fadeIn delay-300">
             What is Fitness and Lifestyle Modification Physiotherapy?
           </h2>
@@ -73,29 +96,7 @@ const FitnessLifestylePhysiotherapy = () => {
             <li>Long-term sustainable lifestyle changes</li>
           </ul>
 
-          {/* Additional Images Section */}
-          <div className="grid grid-cols-2 gap-4 mt-10">
-            <img
-              src={ao}
-              alt="Additional Image 1"
-              className="w-full h-auto object-cover rounded-lg shadow-lg animate-fadeIn delay-1900"
-            />
-            <img
-              src={bo}
-              alt="Additional Image 2"
-              className="w-full h-auto object-cover rounded-lg shadow-lg animate-fadeIn delay-2000"
-            />
-            <img
-              src={co}
-              alt="Additional Image 3"
-              className="w-full h-auto object-cover rounded-lg shadow-lg animate-fadeIn delay-2100"
-            />
-            <img
-              src={doImage}
-              alt="Additional Image 4"
-              className="w-full h-auto object-cover rounded-lg shadow-lg animate-fadeIn delay-2200"
-            />
-          </div>
+          
         </div>
       </div>
       <PhysiotherapyServices />
