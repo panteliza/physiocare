@@ -28,20 +28,20 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <div className="hidden lg:flex items-center gap-8">
-          <Link to="/" className="hover:text-teal-300 transition duration-200">
+          <Link to="/" className="hover:text-teal-600 transition duration-200">
             Home
           </Link>
-          <Link to="/our-services" className="hover:text-teal-300 transition duration-200">
+          <Link to="/our-services" className="hover:text-teal-600 transition duration-200">
             Our Services
           </Link>
-          <Link to="/about-us" className="hover:text-teal-300 transition duration-200">
+          <Link to="/about-us" className="hover:text-teal-600 transition duration-200">
             About Us
           </Link>
-          <Link to="/gallery" className="hover:text-teal-300 transition duration-200">
+          <Link to="/gallery" className="hover:text-teal-600 transition duration-200">
             Gallery
           </Link>
           
-          <Link to="/contact-us" className="hover:text-teal-300 transition duration-200">
+          <Link to="/contact-us" className="hover:text-teal-600 transition duration-200">
             Contact Us
           </Link>
         </div>
