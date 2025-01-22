@@ -15,6 +15,7 @@ import img8 from "../assets/8.png";
 import img9 from "../assets/9.png";
 import img10 from "../assets/10.png";
 import img11 from "../assets/11.png";
+import img12 from "../assets/hgh.png";
 
 const services = [
   { id: 1, name: "Neurological Physiotherapy", image: img1, link: "/neurological-physiotherapy" },
@@ -28,6 +29,7 @@ const services = [
   { id: 9, name: "Cardiac Rehab Physiotherapy", image: img9, link: "/cardiac-rehab-physiotherapy" },
   { id: 10, name: "Physiotherapy Post Chemotherapy", image: img10, link: "/physiotherapy-post-chemotherapy" },
   { id: 11, name: "Respiratory Physiotherapy", image: img11, link: "/respiratory-physiotherapy" },
+  { id: 12, name: "Fitness And Lifestyle Modification", image: img12, link: "/lifestyle-modification" },
 ];
 
 const PhysiotherapyServices = () => {

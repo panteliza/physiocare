@@ -18,6 +18,7 @@ import SportsInjuryPhysiotherapy from './pages/SportsInjuryPhysiotherapy';
 import CardiacRehabPhysiotherapy from './pages/CardiacRehabPhysiotherapy';
 import PostChemotherapyPhysiotherapy from './pages/PostChemotherapyPhysiotherapy';
 import RespiratoryPhysiotherapy from './pages/PhysiotherapyServices';
+import FitnessLifestylePhysiotherapy from './pages/FitnessLifestylePhysiotherapy';
 
 
 const App = () => {
@@ -41,6 +42,7 @@ const App = () => {
         <Route path="/geriatric-physiotherapy" element={<GeriatricPhysiotherapy />} />
         <Route path="/orthopaedic-physiotherapy" element={<OrthopaedicPhysiotherapy />} />
         <Route path="/neurological-physiotherapy" element={<NeurologicalPhysiotherapy />} />
+        <Route path="/lifestyle-modification" element={<FitnessLifestylePhysiotherapy />} />
           <Route path="/" element={<Home />} />
           </Routes>
           {/* WhatsApp button as an image */}
