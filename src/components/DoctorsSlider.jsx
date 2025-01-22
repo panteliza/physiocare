@@ -10,17 +10,17 @@ import doctor2 from "../assets/doctor2.jpeg";
 
 const DoctorsSlider = () => {
   const doctors = [
-    {
-      name: "Dr. Mamata Subba, BPT",
-      description:
-        "Physiotherapist\nNHPC: A-1743 PHY\nA dedicated physiotherapist committed to helping individuals restore, maintain, and improve their mobility, strength, and overall physical function.",
-      image: doctor2,
-    },
+   
     {
       name: "Dr. Ujjwal Dotel, MPT",
       description:
         "Executive Director, Senior Consultant Physiotherapist\nNHPC: 242 PHY\nA dedicated, hardworking physiotherapist specialized in MSK & Sports Physiotherapy who believes in the application of updated knowledge into patient care. I believe applying what you have studied and learned into clinical practice helps not only the patient but also strengthens our professional foundation.",
       image: doctor1,
+    }, {
+      name: "Dr. Mamata Subba, BPT",
+      description:
+        "Physiotherapist\nNHPC: A-1743 PHY\nA dedicated physiotherapist committed to helping individuals restore, maintain, and improve their mobility, strength, and overall physical function.",
+      image: doctor2,
     },
   ];
 
@@ -35,7 +35,7 @@ const DoctorsSlider = () => {
         spaceBetween={30}
         pagination={{ clickable: true }}
         autoplay={{
-          delay: 2000, // Set autoplay delay to 2 seconds
+          delay: 10000, // Set autoplay delay to 2 seconds
           disableOnInteraction: false, // Keep autoplay running even after interaction
         }}
         className="mySwiper"

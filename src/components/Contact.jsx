@@ -53,7 +53,7 @@ const Contact = () => {
           <h3 className="font-bold sm:text-[20px] text-[18px] text-gray-800 mb-2">
             Our Location
           </h3>
-          <p className="text-center text-gray-700">Kupondol, Lalitpur, Nepal</p>
+          <p className="text-center text-gray-700">Kupondole, Lalitpur, Nepal</p>
         </div>
 
         {/* Contact Box */}
@@ -69,11 +69,11 @@ const Contact = () => {
           <h3 className="font-bold sm:text-[20px] text-[18px] text-gray-800 mb-2">
             Our Contact
           </h3>
-          <a href="tel:+ 9779841675370" className="text-center text-gray-700 hover:text-blue-500">
-             +977 9841675370
+          <a href="tel:+ 9779764399112" className="text-center text-gray-700 hover:text-blue-500">
+             +977 9764399112
           </a>
-          <a href="tel:+9779848758698" className="text-center text-gray-700 hover:text-blue-500">
-            +977  9848758698
+          <a href="tel:+9779708476971" className="text-center text-gray-700 hover:text-blue-500">
+            +977  9708476971
           </a>
         </div>
 

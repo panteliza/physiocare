@@ -110,16 +110,16 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <FaPhoneAlt className="text-lg" />
-                <a href="tel:+9779841675370" className="hover:underline">
-                  +977 9841675370
+                <a href="tel:+9779764399112" className="hover:underline">
+                  +977 9764399112
                 </a>
-                <a href="tel:+9779848758698" className="hover:underline">
-                  +977 9848758698
+                <a href="tel:+9779708476971" className="hover:underline">
+                  +977 9708476971
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <FaMapMarkerAlt className="text-lg" />
-                <span>Kupondol, Lalitpur, Nepal</span>
+                <span>Kupondole, Lalitpur, Nepal</span>
               </li>
             </ul>
             <a
