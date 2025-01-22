@@ -73,7 +73,7 @@ const Contact = () => {
              +977 9764399112
           </a>
           <a href="tel:+9779708476971" className="text-center text-gray-700 hover:text-blue-500">
-            +977  9708476971
+            +977 9708476971
           </a>
         </div>
 

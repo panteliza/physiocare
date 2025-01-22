@@ -2,8 +2,9 @@ import React, { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Contact from '../components/Contact';
 import DirectContactUs from '../components/DirectContact';
-import Reviews from '../components/Reviews';
+
 import Footer from '../components/Footer';
+import Reviews from '../components/Reviews';
 
 const ContactPage = () => {
   useEffect(() => {
@@ -33,6 +34,7 @@ const ContactPage = () => {
         {/* Reviews Section */}
        
       </div>
+    <Reviews/>
 
       {/* Footer */}
       <Footer />

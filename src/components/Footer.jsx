@@ -29,7 +29,7 @@ const Footer = () => {
                 <FaFacebookF />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/phy_siocarenepal?igsh=NW91M2xsdXZrNHBo"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-white rounded-full text-teal-700 hover:bg-teal-600 hover:text-white transition-all duration-300"

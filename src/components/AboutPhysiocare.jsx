@@ -53,8 +53,8 @@ const AboutPhysiocare = () => {
       1. Click to call our office number.
       2. Book an appointment through our portal.
 
-      Contact us at +977 9841675370
-+977 9848758698`,
+      Contact us at +977 9764399112
+  +977 9708476971`,
     },
   ];
 

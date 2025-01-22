@@ -37,7 +37,7 @@ const FitnessLifestylePhysiotherapy = () => {
         {/* Content Section */}
         <div className="max-w-4xl w-full bg-white shadow-lg rounded-lg overflow-hidden p-8 space-y-6">
              {/* Additional Images Section */}
-             <div className="grid grid-cols-2 gap-4 mt-10">
+             <div className="grid grid-cols-2 gap-4 mt-8">
             <img
               src={ao}
               alt="Additional Image 1"
