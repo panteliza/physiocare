@@ -123,11 +123,14 @@ const Footer = () => {
               </li>
             </ul>
             <a
-              href="#"
-              className="inline-block mt-4 bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-all"
-            >
-              Book An Appointment
-            </a>
+  href="https://wa.me/9708476971"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block mt-4 bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-all"
+>
+  Book An Appointment
+</a>
+
           </div>
 
 
