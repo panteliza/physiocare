@@ -4,7 +4,7 @@ import Contact from '../components/Contact';
 import DirectContactUs from '../components/DirectContact';
 
 import Footer from '../components/Footer';
-import Reviews from '../components/Reviews';
+
 import AboutPhysiocare from '../components/AboutPhysiocare';
 
 const ContactPage = () => {
@@ -23,7 +23,7 @@ const ContactPage = () => {
       <div className="w-full flex-shrink-0 overflow-hidden">
         <Contact />
         <DirectContactUs />
-     <Reviews/>
+    
      <AboutPhysiocare/>
 <Footer />
 
